@@ -112,7 +112,7 @@ claude
 ## 核心:怎么验「有没有被降智」
 
 **这是选中转最关键、也最少人讲的一步。** 别信任何中转的口头承诺("我们官转不降智"),
-**自己测**。有个开源 CLI 工具 [LLMprobe](https://github.com/cocodot2026/LLMprobe) 就是干
+**自己测**。有个开源 CLI 工具 [cocodot-llmprobe](https://github.com/cocodot2026/cocodot-llmprobe) 就是干
 这个的:
 
 - 对任意 OpenAI 兼容端点跑 6 类探针:**模型身份、能力(用另一个模型当裁判打分)、
@@ -154,7 +154,7 @@ python llmprobe.py --base-url https://<你的中转>/api/ai/v1 --api-key <你的
 虚拟卡绑官方走方式一。
 
 **中转会不会把我的 Opus 偷换成小模型?** 差的会。所以别信口头保证,用
-[LLMprobe](https://github.com/cocodot2026/LLMprobe) 自己测——这是本指南最想让你记住的一件事。
+[cocodot-llmprobe](https://github.com/cocodot2026/cocodot-llmprobe) 自己测——这是本指南最想让你记住的一件事。
 
 **中转安全吗?我的 Key/代码会不会被看?** 你的请求会过中转服务器,选**开源可审计、明确不
 落库**的;敏感项目建议自建(方式三)。
@@ -169,7 +169,7 @@ python llmprobe.py --base-url https://<你的中转>/api/ai/v1 --api-key <你的
 一条龙，谁都能跑：
 
 - **[relay-doctor](https://github.com/cocodot2026/relay-doctor)** —— 一条命令体检任意中转（连通 / 模型 / 延迟 / 流式），零依赖
-- **[LLMprobe](https://github.com/cocodot2026/LLMprobe)** —— 验降智：6 探针打分，key 不落库
+- **[cocodot-llmprobe](https://github.com/cocodot2026/cocodot-llmprobe)** —— 验降智：6 探针打分，key 不落库
 - **[ai-api-cost](https://github.com/cocodot2026/ai-api-cost)** —— 诚实成本估算，数真 token × 你填的费率（不猜价）
 - **[ccsetup](https://github.com/cocodot2026/ccsetup)** —— 一键配好 Claude Code 环境变量并冒烟测试
 - **[ai-coding-from-china](https://github.com/cocodot2026/ai-coding-from-china)** —— 完整方法（Claude Code Skill）
@@ -184,4 +184,4 @@ python llmprobe.py --base-url https://<你的中转>/api/ai/v1 --api-key <你的
 ---
 
 *本指南方式与价格以各平台/官方最新公示为准;作者与 cocodot 利益相关,已在开头声明。
-验降智工具 [LLMprobe](https://github.com/cocodot2026/LLMprobe) 开源,欢迎自测与纠错。*
+验降智工具 [cocodot-llmprobe](https://github.com/cocodot2026/cocodot-llmprobe) 开源,欢迎自测与纠错。*
