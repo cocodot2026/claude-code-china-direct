@@ -10,7 +10,7 @@
 > 选、怎么自己验证有没有被降智**。
 
 **📅 最后更新:2026-07** · **利益相关声明:** 作者做
-[cocodot](https://cocodot.co)(一个 AI 中转 + 虚拟卡工具),下文会提到它;但这里把
+[cocodot](https://cocodot.co?utm_source=github&utm_medium=readme&utm_campaign=claude-code-china-direct)(一个 AI 中转 + 虚拟卡工具),下文会提到它;但这里把
 **三种方式(含自建、含官方)**一起对比,并给你**开源工具自己验证**,你看完自己选,
 **别只信我**。欢迎 Issue / PR 纠错。
 
